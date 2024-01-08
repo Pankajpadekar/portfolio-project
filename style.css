@@ -138,7 +138,7 @@ a:hover {
 }
 
 .hamburger-icon span:first-child {
-    transform: none;
+    transform: none; 
 }
 
 .hamburger-icon span:first-child {
