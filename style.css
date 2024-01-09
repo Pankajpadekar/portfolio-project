@@ -160,7 +160,7 @@ section {
     min-height: fit-content;
 }
 
-.secion-container {
+.section-container {
     display: flex;
 }
 
@@ -180,7 +180,7 @@ section {
     margin: auto 0;
 }
 
-.secion_text {
+.section_text {
     align-self: center;
     text-align: center;
 }
