@@ -4,3 +4,16 @@ function toggleMenu() {
     menu.classList.toggle("open");
     icon.classList.toggle("open");
 }
+
+function toggleMode() {
+    let body = document.body;
+    let modeIcon = document.getElementById('mode-icon');
+
+    body.classList.toggle('dark-mode');
+
+    if (body.classList.contains('dark-mode')) {
+        modeIcon.innerHTML = '&#127769;';
+    } else {
+        modeIcon.innerHTML = '&#9728;';
+    }
+}
