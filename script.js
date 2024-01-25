@@ -12,7 +12,7 @@ function toggleMode() {
     body.classList.toggle('dark-mode');
 
     if (body.classList.contains('dark-mode')) {
-        modeIcon.innerHTML = '&#127769;';
+        modeIcon.innerHTML = '&#9789;';
     } else {
         modeIcon.innerHTML = '&#9728;';
     }
